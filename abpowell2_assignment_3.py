@@ -1,7 +1,7 @@
 equalssighn = "="  
 space = " "
-student = "Student: Jordan Smith | Email: jsmith@ncat.edu"
-ffrom = ("From: Charlotte, NC | Graduating: Spring 2028")
+student = "Student: Antwain Powell | Email: abpowell2@aggies.ncat.edu"
+ffrom = ("From: Clayton, NC | Graduating: Spring 2029")
 major = ("Major: Computer Science")
 currentcourses_list = ["COMP 163", "MATH 150", "ENG 101", "HIS 105"]
 completed_courses_list = ["Biology", "chemistry", "calculus", "Spanish II", "World History"] 
@@ -45,36 +45,36 @@ studyhours_perclass_dictionary = {
     "History": 3
 }
 contact_dictionary = {
-    "Mom": 7045550199, 
-    "Roommate": 3365557821, 
-    "Academic Advisor": 3363345000
+    "Mom": 74092459764, 
+    "Roommate": 8204682987, 
+    "Academic Advisor": 8375978000
 }
 emergencycontact_tuple = (
-    "Hannah Smith", 
+    "Maia Washington", 
     "(Mom)",
-    "704-555-0199"
+    "984-576-1091"
 )
 homeadress_tuple = (
-    "456 Oak Street",
-    "Charlotte",
+    "999 Heaven Way",
+    "Clayton",
     "NC",
-    28202
+    27520
 )
 instagraminfo_tuple = (
     "Instagram",
-    "@jordan_codes",
-    312
+    "a_2.n.d",
+    298
 )
 twitterinfo_tuple = (
     "Twitter",
-    "@Jordandev",
-    127
+    "@ax2nddev",
+    564
 )
 birthday_tuple = (
     "Birthday",
-    "5",
-    "22",
-    "2006"
+    "6",
+    "13",
+    "2007"
 )
 print(f"{equalssighn*64}")
 print(space*13, "PERSONAL ACADEMIC & LIFE PORTFOLIO")
@@ -117,3 +117,4 @@ print(f"Entertainment Backlog: {len(entertainment_backlog_set)} items")
 print(f"Current Hobbies: {len(Hobbies_set)} activities")
 
 print(f"{equalssighn*64}") 
+
