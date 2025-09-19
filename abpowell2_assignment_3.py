@@ -9,11 +9,11 @@ currentcredits_list = [3, 4, 3, 3, 1]
 gpa_history_list = ["No GPA yet"]
 currentprofesor_list = ["Prof. Rhodes", "Dr.Varatharajah", "Prof. Cavanagh", "Prof. Devoe", "Dr. Parrish"] 
 currentclasslocation_list = ["M-Eric 300", "Marteena 233", "Online", "Online", "McNair 240"]
-curent_skill_set = {"Python basics", "HTML", "Problem solving", "Time management", "Photography"} 
-skills_to_learn_set = {"JavaScript", "Data structures", "Git", "Web design", "Public speaking"}
-career_interest_set = {"Software development", "Web development", "Data science", "Game development"}
-Hobbies_set = {"Gaming", "Photography", "Reading", "Soccer", "Music"}
-entertainment_backlog_set = {"One Piece", "Barry", "Life", "incarceration", "Memento"}
+curent_skill_set = {"Python basics", "Problem solving", "Time management", "Web development", "Public speaking"} 
+skills_to_learn_set = {"JavaScript", "Git", "Web design", "HTML", "C++"}
+career_interest_set = {"Game desighn", "Web development", "Cybersecurity", "Game development"}
+Hobbies_set = {"Gaming", "Movies/TV", "Reading", "Working out", "Music"}
+entertainment_backlog_set = {"One Piece(Egghead island and beyond)", "Rick and Morty(Season 8)", "Wednesday(season 2)"}
 course_credits_dictionary = {
     "COMP 163": 3,
     "MATH 131": 4, 
@@ -116,11 +116,13 @@ print(f"Home Address: {homeadress_tuple[0]}, {homeadress_tuple[1]}, {homeadress_
 print(f"Social Media Presence: {twitterinfo_tuple[2] + instagraminfo_tuple[2]} followers across 2 platforms")
 print(f"Key Contacts: {len(contact_dictionary)} people in directory\n")
 print(f"{equalssighn*3} LIFE STATISTICS {equalssighn*3}")
-print(f"Total Courses Completed: {len(completed_courses_list)}")
+print(f"Total Courses Completed: {completed_courses_list}")
 print(f"Current Academic Load: {sum(studyhours_perclass_dictionary.values()) + sum(currentcredits_list)} weekly commitments")
 print(f"Entertainment Backlog: {len(entertainment_backlog_set)} items")
 print(f"Current Hobbies: {len(Hobbies_set)} activities")
+print(f"{equalssighn*64}")   
 
-print(f"{equalssighn*64}") 
+ 
+
 
 
