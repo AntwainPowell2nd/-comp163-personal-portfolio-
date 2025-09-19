@@ -1,4 +1,4 @@
-equalssighn = "=" 
+equalssighn = "="  
 space = " "
 student = "Student: Jordan Smith | Email: jsmith@ncat.edu"
 ffrom = ("From: Charlotte, NC | Graduating: Spring 2028")
@@ -115,4 +115,5 @@ print(f"Total Courses Completed: {len(completed_courses_list)}")
 print(f"Current Academic Load: {sum(studyhours_perclass_dictionary.values()) + sum(currentcredits_list)} weekly commitments")
 print(f"Entertainment Backlog: {len(entertainment_backlog_set)} items")
 print(f"Current Hobbies: {len(Hobbies_set)} activities")
+
 print(f"{equalssighn*64}") 
