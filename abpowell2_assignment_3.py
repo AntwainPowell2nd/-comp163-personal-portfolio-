@@ -3,12 +3,12 @@ space = " "
 student = "Student: Antwain Powell | Email: abpowell2@aggies.ncat.edu"
 ffrom = ("From: Clayton, NC | Graduating: Spring 2029")
 major = ("Major: Computer Science")
-currentcourses_list = ["COMP 163", "MATH 150", "ENG 101", "HIS 105"]
-completed_courses_list = ["Biology", "chemistry", "calculus", "Spanish II", "World History"] 
-currentcredits_list = [3, 3, 3, 3]
-gpa_history_list = [3.2, 3.6, 3.4, 3.7]
-currentprofesor_list = ["Prof. Rhodes", "Dr. Lee", "Dr. Martinez", "Dr. Brown"]
-currentclasslocation_list = ["M-Eric 300", "Marteena 201", "Crosby 121", "Crosby 210"]
+currentcourses_list = ["COMP 163", "MATH 131", "SPCH 250", "HIS 106", "GEEN 111"]
+completed_courses_list = ["First Semester no completed courses"] 
+currentcredits_list = [3, 4, 3, 3, 1]
+gpa_history_list = ["No GPA yet"]
+currentprofesor_list = ["Prof. Rhodes", "Dr.Varatharajah", "Prof. Cavanagh", "Prof. Devoe", "Dr. Parrish"] 
+currentclasslocation_list = ["M-Eric 300", "Marteena 233", "Online", "Online", "McNair 240"]
 curent_skill_set = {"Python basics", "HTML", "Problem solving", "Time management", "Photography"} 
 skills_to_learn_set = {"JavaScript", "Data structures", "Git", "Web design", "Public speaking"}
 career_interest_set = {"Software development", "Web development", "Data science", "Game development"}
@@ -16,21 +16,24 @@ Hobbies_set = {"Gaming", "Photography", "Reading", "Soccer", "Music"}
 entertainment_backlog_set = {"One Piece", "Barry", "Life", "incarceration", "Memento"}
 course_credits_dictionary = {
     "COMP 163": 3,
-    "MATH 150": 3, 
-    "ENG 101": 3, 
-    "HIS 105": 3 
+    "MATH 131": 4, 
+    "SPCH 250": 3, 
+    "HIS 106": 3, 
+    "GEEN 111": 1 
 }
 course_professor_dictionary = {
     "COMP 163": "Prof. Rhodes", 
-    "MATH 150": "Dr. Lee", 
-    "ENG 101": "Dr. Martinez",
-    "HIS 105": "Dr.Brown"
+    "MATH 131": "Dr. Varatharajah", 
+    "SPCH 250": "Prof. Cavanagh",
+    "HIS 106": "Prof. Devoe",
+    "GEEN 111": "Dr. Parrish"
 }
 course_room_dictionary = {
     "COMP 163": "M-Eric 300",
-    "MATH 150": "Marteena 201",
-    "ENG 101": "Crosby 121",
-    "HIS 105": "Crosby 210"
+    "MATH 131": "Marteena 233",
+    "SPCH 250": "Online",
+    "HIS 106": "Online",
+    "GEEN 111": "McNair 240"
 }
 monthly_budget_dictionary = {
     "Food":450, 
@@ -39,10 +42,11 @@ monthly_budget_dictionary = {
     "Transportation": 100
 }
 studyhours_perclass_dictionary = {
-    "Programming": 10, 
-    "Math": 8, 
-    "English": 4, 
-    "History": 3
+    "Programming": 6, 
+    "Math": 4, 
+    "Speech Fundamentals": 1, 
+    "History": 3,
+    "General Engineering": 0
 }
 contact_dictionary = {
     "Mom": 74092459764, 
@@ -84,14 +88,15 @@ print(ffrom)
 print(f"{major}\n")
 print(f"{equalssighn*3} ACADEMIC PROFILE {equalssighn*3}")
 print(f"Current Semester: {sum(course_credits_dictionary.values())} credits across {len(course_credits_dictionary)} courses")
-print(f"Cumulative GPA: {sum(gpa_history_list) / 4:.2f}")
+print(f"Cumulative GPA: {gpa_history_list}") 
 print(f"Weekly Study Time: {sum(studyhours_perclass_dictionary.values())} hours")
 print(f"Academic Investment: ${monthly_budget_dictionary["Books"] // sum(studyhours_perclass_dictionary.values()):.1f} per study hour\n")
 print("Current Courses:")
 print(f"{currentcourses_list[0]} - {currentcredits_list[0]} credits - {currentprofesor_list[0]} - {currentclasslocation_list[0]}")
 print(f"{currentcourses_list[1]} - {currentcredits_list[1]} credits - {currentprofesor_list[1]} - {currentclasslocation_list[1]}")
 print(f"{currentcourses_list[2]} - {currentcredits_list[2]} credits - {currentprofesor_list[2]} - {currentclasslocation_list[2]}")
-print(f"{currentcourses_list[3]} - {currentcredits_list[3]} credits - {currentprofesor_list[3]} - {currentclasslocation_list[3]}\n")
+print(f"{currentcourses_list[3]} - {currentcredits_list[3]} credits - {currentprofesor_list[3]} - {currentclasslocation_list[3]}")
+print(f"{currentcourses_list[4]} - {currentcredits_list[4]} credits - {currentprofesor_list[4]} - {currentclasslocation_list[4]}\n")   
 print(f"{equalssighn*3} PERSONAL DEVELOPMENT {equalssighn*3}")  
 print(f"Current Skills: {curent_skill_set}")
 print(f"Learning Goals: {skills_to_learn_set}")
@@ -117,4 +122,5 @@ print(f"Entertainment Backlog: {len(entertainment_backlog_set)} items")
 print(f"Current Hobbies: {len(Hobbies_set)} activities")
 
 print(f"{equalssighn*64}") 
+
 
