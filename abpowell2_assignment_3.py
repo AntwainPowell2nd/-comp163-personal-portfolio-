@@ -1,5 +1,4 @@
-equalssighn = "="  
-space = " "
+equalssighn = "=" 
 student = "Student: Antwain Powell | Email: abpowell2@aggies.ncat.edu"
 ffrom = ("From: Clayton, NC | Graduating: Spring 2029")
 major = ("Major: Computer Science")
@@ -13,7 +12,7 @@ curent_skill_set = {"Python basics", "Problem solving", "Time management", "Web 
 skills_to_learn_set = {"JavaScript", "Git", "Web design", "HTML", "C++"}
 career_interest_set = {"Game desighn", "Web development", "Cybersecurity", "Game development"}
 Hobbies_set = {"Gaming", "Movies/TV", "Reading", "Working out", "Music"}
-entertainment_backlog_set = {"One Piece(Egghead island and beyond)", "Rick and Morty(Season 8)", "Wednesday(season 2)"}
+entertainment_backlog_set = {"One Piece(Egghead siland and beyond)", "Rick and Morty(Season 8)", "Wednesday(season 2)"}
 course_credits_dictionary = {
     "COMP 163": 3,
     "MATH 131": 4, 
@@ -36,10 +35,10 @@ course_room_dictionary = {
     "GEEN 111": "McNair 240"
 }
 monthly_budget_dictionary = {
-    "Food":450, 
-    "Entertainment": 200, 
-    "Books": 125, 
-    "Transportation": 100
+    "Food":150, 
+    "Entertainment": 50, 
+    "Books": 100, 
+    "Transportation": 75
 }
 studyhours_perclass_dictionary = {
     "Programming": 6, 
@@ -49,30 +48,30 @@ studyhours_perclass_dictionary = {
     "General Engineering": 0
 }
 contact_dictionary = {
-    "Mom": 74092459764, 
-    "Roommate": 8204682987, 
-    "Academic Advisor": 8375978000
+    "Mom": 2984092841, 
+    "Roommate": 7204752087, 
+    "Academic Advisor": 7204643000
 }
 emergencycontact_tuple = (
     "Maia Washington", 
     "(Mom)",
-    "984-576-1091"
+    "298-409-2841"
 )
 homeadress_tuple = (
-    "999 Heaven Way",
+    "999 Heaven Street",
     "Clayton",
     "NC",
     27520
 )
 instagraminfo_tuple = (
     "Instagram",
-    "a_2.n.d",
+    "@a_2.n.d",
     298
 )
 twitterinfo_tuple = (
     "Twitter",
-    "@ax2nddev",
-    564
+    "@ajpfuturedev",
+    999
 )
 birthday_tuple = (
     "Birthday",
@@ -81,7 +80,7 @@ birthday_tuple = (
     "2007"
 )
 print(f"{equalssighn*64}")
-print(space*13, "PERSONAL ACADEMIC & LIFE PORTFOLIO")
+print(               "PERSONAL ACADEMIC & LIFE PORTFOLIO")
 print(f"{equalssighn*64}")
 print(student)
 print(ffrom)
@@ -96,7 +95,7 @@ print(f"{currentcourses_list[0]} - {currentcredits_list[0]} credits - {currentpr
 print(f"{currentcourses_list[1]} - {currentcredits_list[1]} credits - {currentprofesor_list[1]} - {currentclasslocation_list[1]}")
 print(f"{currentcourses_list[2]} - {currentcredits_list[2]} credits - {currentprofesor_list[2]} - {currentclasslocation_list[2]}")
 print(f"{currentcourses_list[3]} - {currentcredits_list[3]} credits - {currentprofesor_list[3]} - {currentclasslocation_list[3]}")
-print(f"{currentcourses_list[4]} - {currentcredits_list[4]} credits - {currentprofesor_list[4]} - {currentclasslocation_list[4]}\n")   
+print(f"{currentcourses_list[4]} - {currentcredits_list[4]} credits - {currentprofesor_list[4]} - {currentclasslocation_list[4]}\n")    
 print(f"{equalssighn*3} PERSONAL DEVELOPMENT {equalssighn*3}")  
 print(f"Current Skills: {curent_skill_set}")
 print(f"Learning Goals: {skills_to_learn_set}")
@@ -121,8 +120,3 @@ print(f"Current Academic Load: {sum(studyhours_perclass_dictionary.values()) + s
 print(f"Entertainment Backlog: {len(entertainment_backlog_set)} items")
 print(f"Current Hobbies: {len(Hobbies_set)} activities")
 print(f"{equalssighn*64}")   
-
- 
-
-
-
