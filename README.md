@@ -8,7 +8,7 @@ Project that bulsters understanding of contaniers like lists, tuples, sets, and 
 ## Features 
 -Storing my person Data
 -Tracking my current courses and GPA
-Calculaitng my budget 
+-Calculaitng my budget 
 -Listing my hobbies and activites 
 ## How to Run 
 python abpowell2_assignment_3.py
