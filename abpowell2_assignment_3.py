@@ -1,18 +1,25 @@
 equalssighn = "=" 
+#personal Information 
 student = "Student: Antwain Powell | Email: abpowell2@aggies.ncat.edu"
 ffrom = ("From: Clayton, NC | Graduating: Spring 2029")
 major = ("Major: Computer Science")
+#course Information 
 currentcourses_list = ["COMP 163", "MATH 131", "SPCH 250", "HIS 106", "GEEN 111"]
 completed_courses_list = ["First Semester no completed courses"] 
 currentcredits_list = [3, 4, 3, 3, 1]
 gpa_history_list = ["No GPA yet"]
+#Class and proffesor information 
 currentprofesor_list = ["Prof. Rhodes", "Dr.Varatharajah", "Prof. Cavanagh", "Prof. Devoe", "Dr. Parrish"] 
 currentclasslocation_list = ["M-Eric 300", "Marteena 233", "Online", "Online", "McNair 240"]
+# Skills I posses and want to learn
 curent_skill_set = {"Python basics", "Problem solving", "Time management", "Web development", "Public speaking"} 
 skills_to_learn_set = {"JavaScript", "Git", "Web design", "HTML", "C++"}
+#Career interests
 career_interest_set = {"Game desighn", "Web development", "Cybersecurity", "Game development"}
+#Hobbies 
 Hobbies_set = {"Gaming", "Movies/TV", "Reading", "Working out", "Music"}
 entertainment_backlog_set = {"One Piece(Egghead siland and beyond)", "Rick and Morty(Season 8)", "Wednesday(season 2)"}
+#class, GPA, Profesor, and location information 
 course_credits_dictionary = {
     "COMP 163": 3,
     "MATH 131": 4, 
@@ -34,12 +41,14 @@ course_room_dictionary = {
     "HIS 106": "Online",
     "GEEN 111": "McNair 240"
 }
+#Monthly budget
 monthly_budget_dictionary = {
     "Food":150, 
     "Entertainment": 50, 
     "Books": 100, 
     "Transportation": 75
 }
+#Study hours per class 
 studyhours_perclass_dictionary = {
     "Programming": 6, 
     "Math": 4, 
@@ -47,6 +56,7 @@ studyhours_perclass_dictionary = {
     "History": 3,
     "General Engineering": 0
 }
+#contact and Emergency contact 
 contact_dictionary = {
     "Mom": 2984092841, 
     "Roommate": 7204752087, 
@@ -57,12 +67,14 @@ emergencycontact_tuple = (
     "(Mom)",
     "298-409-2841"
 )
+#My adress
 homeadress_tuple = (
     "999 Heaven Street",
     "Clayton",
     "NC",
     27520
 )
+#My social media 
 instagraminfo_tuple = (
     "Instagram",
     "@a_2.n.d",
@@ -73,13 +85,14 @@ twitterinfo_tuple = (
     "@ajpfuturedev",
     999
 )
+#My birthdat
 birthday_tuple = (
     "Birthday",
     "6",
     "13",
     "2007"
 )
-print(f"{equalssighn*64}")
+print(f"{equalssighn*64}")#prints equal sigh 64 times 
 print(               "PERSONAL ACADEMIC & LIFE PORTFOLIO")
 print(f"{equalssighn*64}")
 print(student)
@@ -120,3 +133,4 @@ print(f"Current Academic Load: {sum(studyhours_perclass_dictionary.values()) + s
 print(f"Entertainment Backlog: {len(entertainment_backlog_set)} items")
 print(f"Current Hobbies: {len(Hobbies_set)} activities")
 print(f"{equalssighn*64}")   
+
